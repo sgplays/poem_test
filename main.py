@@ -3,8 +3,8 @@
 
 import streamlit as st
 
-# from langchain.chat_models import ChatOpenAI
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
+# from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
 
 st.title('Q 킴의 Chat GPT 시 써주는 집')
